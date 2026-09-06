@@ -1,0 +1,10 @@
+node_modules
+dist
+.idea
+src/assets
+package-lock.json
+playwright-report
+test-results
+docker-compose.yaml
+.mail-receipts
+.env*

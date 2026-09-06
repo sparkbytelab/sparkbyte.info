@@ -1,0 +1,24 @@
+@layer reset, tokens, base, layout, components, motion, utilities;
+
+@layer tokens {
+  :root {
+    color-scheme: dark;
+    --page: #17152b;
+    --surface: #272141;
+    --surface-soft: #352b55;
+    --text: #fff4d6;
+    --muted: #c9c3dc;
+    --violet: #8c68d9;
+    --violet-light: #d4b8ff;
+    --gold: #ffd166;
+    --coral: #ff7168;
+    --mint: #7ee2c1;
+    --line: rgb(255 244 214 / 21%);
+    --line-strong: rgb(255 244 214 / 42%);
+    --sans: 'Space Grotesk Variable', 'Helvetica Neue', Arial, sans-serif;
+    --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
+    --content: 1320px;
+    --gutter: clamp(20px, 4.5vw, 72px);
+    --ease: 220ms ease;
+  }
+}

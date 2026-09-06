@@ -1,0 +1,254 @@
+{
+  "brand": {
+    "name": "Sparkbyte",
+    "domain": "SPARKBYTE.INFO",
+    "tagline": "DIGITAL WORKSHOP / ONLINE"
+  },
+  "seo": {
+    "title": "Sparkbyte - strony, aplikacje i serwery. Zrobione porządnie.",
+    "description": "Cyfrowy warsztat dla Twojej firmy. Projektujemy strony WWW, budujemy aplikacje webowe i dbamy o serwery. Od pierwszego pomysłu do działającego rozwiązania."
+  },
+  "company": {
+    "name": "FSE Dominik Szamburski",
+    "address": "ul. Marcinkowskiego 59",
+    "postalCode": "64-820",
+    "city": "Szamocin",
+    "nip": "6070055788",
+    "regon": "529441335"
+  },
+  "navigation": [
+    { "label": "Usługi", "href": "#services" },
+    { "label": "Proces", "href": "#process" },
+    { "label": "Technologia", "href": "#technology" },
+    { "label": "Realizacje", "href": "#projects" },
+    { "label": "FAQ", "href": "#faq" }
+  ],
+  "hero": {
+    "eyebrow": "SPARKBYTE.INFO / DIGITAL WORKSHOP",
+    "title": "Strony, aplikacje i serwery.",
+    "titleAccent": "Zrobione porządnie.",
+    "description": "Projektujemy, budujemy i wdrażamy rozwiązania internetowe dla firm. Ty znasz swój biznes. My przekładamy go na technologię, która działa.",
+    "primaryCta": { "label": "Opowiedz o projekcie", "href": "#contact" },
+    "secondaryCta": { "label": "Zobacz ofertę", "href": "#services" },
+    "statusLabel": "Od pierwszej rozmowy do wdrożenia",
+    "note": "Dla małych firm. Z myślą o dużych planach.",
+    "scrollLabel": "Przewiń. Zobacz, jak to działa."
+  },
+  "marquee": ["WEB DESIGN", "WEB APPS", "INFRASTRUCTURE", "MAINTENANCE", "DEPLOYMENT"],
+  "introduction": {
+    "eyebrow": "01 / IDEA → CODE → IMPACT",
+    "title": "Dobry pomysł zasługuje na dobre wykonanie.",
+    "description": "Strona, która jasno opowiada o Twojej firmie. Aplikacja, która oszczędza ręczną pracę. Serwer, nad którym ktoś czuwa. Łączymy te elementy w jedną, sensowną całość."
+  },
+  "headings": {
+    "services": {
+      "eyebrow": "02 / MOŻLIWOŚCI WARSZTATU",
+      "title": "Od pierwszego kliknięcia. Po to, co pod spodem.",
+      "description": "Trzy obszary. Jeden partner technologiczny. Wybierz, od czego zaczynamy."
+    },
+    "process": {
+      "eyebrow": "03 / SPOSÓB PRACY",
+      "title": "Dobry proces. Spokojna głowa.",
+      "description": "Wiesz, co powstaje, dlaczego i jaki jest następny krok. Pracujemy etapami i pokazujemy efekty po drodze."
+    },
+    "technology": {
+      "eyebrow": "04 / POD POWIERZCHNIĄ",
+      "title": "Ładna strona to dopiero początek.",
+      "description": "Za każdym kliknięciem jest system. Dbamy o to, jak przyjmuje ruch, przetwarza dane i pozwala wykryć problemy. Technologie dobieramy do zadania - nie każda realizacja potrzebuje całego zestawu."
+    },
+    "audience": {
+      "eyebrow": "05 / DLA TWOJEJ FIRMY",
+      "title": "Brzmi znajomo? Zacznijmy od tego.",
+      "description": "Nie potrzebujesz gotowej specyfikacji. Wystarczy problem, który chcesz rozwiązać."
+    },
+    "projects": {
+      "eyebrow": "06 / Z WARSZTATU",
+      "title": "Praca mówi sama za siebie.",
+      "description": "Tutaj pojawią się wybrane projekty wraz z opisem problemu, zakresu i zastosowanego rozwiązania."
+    },
+    "faq": {
+      "eyebrow": "07 / WARTO WIEDZIEĆ",
+      "title": "Dobry początek? Jasne odpowiedzi.",
+      "description": "Kilka rzeczy, o które możesz chcieć zapytać przed pierwszą rozmową."
+    }
+  },
+  "services": [
+    {
+      "id": "strony-www",
+      "number": "01",
+      "eyebrow": "WEB DESIGN & DEVELOPMENT",
+      "title": "Twoje miejsce w sieci.",
+      "description": "Tworzymy strony firmowe, landing page i strony usługowe, które pomagają klientowi zrozumieć Twoją ofertę i zrobić następny krok.",
+      "features": [
+        "Czytelny projekt na telefonie i komputerze",
+        "Szybkość i SEO techniczne od podstaw",
+        "Treści i struktura gotowe na rozwój"
+      ],
+      "accent": "coral",
+      "visual": "browser"
+    },
+    {
+      "id": "aplikacje-webowe",
+      "number": "02",
+      "eyebrow": "WEB APPLICATIONS",
+      "title": "Mniej klikania. Więcej działania.",
+      "description": "Budujemy panele, portale i narzędzia dopasowane do Twojego procesu. Porządkujemy dane i łączymy systemy, które powinny ze sobą rozmawiać.",
+      "features": [
+        "Panele, formularze i procesy firmowe",
+        "Integracje z używanymi narzędziami",
+        "Uprawnienia i interfejs dopasowane do zespołu"
+      ],
+      "accent": "gold",
+      "visual": "application"
+    },
+    {
+      "id": "serwery",
+      "number": "03",
+      "eyebrow": "INFRASTRUCTURE & MAINTENANCE",
+      "title": "Solidne zaplecze. Na co dzień.",
+      "description": "Przygotowujemy środowisko i wdrażamy rozwiązanie. Ustalamy zasady utrzymania, żeby było wiadomo, kto odpowiada za aktualizacje, kopie i reakcję na problemy.",
+      "features": [
+        "Wdrożenia, SSL i reverse proxy",
+        "Monitoring i kopie zapasowe",
+        "Aktualizacje oraz uzgodniony zakres opieki"
+      ],
+      "accent": "mint",
+      "visual": "infrastructure"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "Rozpoznanie problemu",
+      "description": "Poznajemy firmę, użytkowników i cel. Ustalamy, co dziś przeszkadza i jak ma wyglądać dobry efekt."
+    },
+    {
+      "number": "02",
+      "title": "Plan i kierunek",
+      "description": "Określamy zakres, priorytety, budżet i etapy. Podejmujesz decyzję, znając proponowane rozwiązanie."
+    },
+    {
+      "number": "03",
+      "title": "Projekt i budowa",
+      "description": "Projektujemy interfejs, piszemy kod i sprawdzamy działanie. Pokazujemy postępy i zbieramy Twoje uwagi."
+    },
+    {
+      "number": "04",
+      "title": "Wdrożenie i opieka",
+      "description": "Uruchamiamy projekt, przekazujemy dostęp i dokumentację. Dalsze wsparcie ustalamy zgodnie z potrzebami firmy."
+    }
+  ],
+  "flow": [
+    { "name": "REQUEST", "description": "Klient otwiera stronę" },
+    { "name": "ROUTING", "description": "Ruch trafia we właściwe miejsce" },
+    { "name": "APPLICATION", "description": "Aplikacja wykonuje zadanie" },
+    { "name": "DATA", "description": "Dane mają swój porządek" },
+    { "name": "MONITORING", "description": "Problemy zostawiają ślad" }
+  ],
+  "stack": [
+    { "name": "React", "category": "INTERFEJS", "description": "Interaktywne strony i aplikacje" },
+    {
+      "name": "Symfony / PHP",
+      "category": "LOGIKA",
+      "description": "Logika biznesowa i integracje"
+    },
+    {
+      "name": "Docker",
+      "category": "ŚRODOWISKO",
+      "description": "Powtarzalne środowiska i wdrożenia"
+    },
+    { "name": "Linux", "category": "SERWER", "description": "System pod kontrolą" },
+    { "name": "Reverse proxy", "category": "RUCH", "description": "Kierowanie i obsługa połączeń" },
+    {
+      "name": "Monitoring",
+      "category": "OBSERWACJA",
+      "description": "Informacja o działaniu aplikacji"
+    }
+  ],
+  "audience": [
+    {
+      "title": "Twoja strona nie nadąża za firmą.",
+      "description": "Oferta się rozwinęła, a strona została w miejscu? Uporządkujmy treść, nawigację i drogę do kontaktu."
+    },
+    {
+      "title": "Proces nie mieści się już w arkuszu.",
+      "description": "Potrzebujesz panelu, który zbiera informacje i pomaga zespołowi pracować po swojemu."
+    },
+    {
+      "title": "Na serwerze przydałby się porządek.",
+      "description": "Dostępy, aktualizacje i kopie zapasowe nie powinny być zagadką. Ustalmy, co wymaga uwagi."
+    },
+    {
+      "title": "Chcesz przejść od pomysłu do wdrożenia.",
+      "description": "Szukasz partnera, który połączy projekt, kod i uruchomienie - i wyjaśni decyzje po drodze."
+    }
+  ],
+  "projects": [],
+  "projectsEmpty": "Wybrane realizacje w przygotowaniu",
+  "faq": [
+    {
+      "question": "Czy muszę wiedzieć, jakiej technologii potrzebuję?",
+      "answer": "Nie. Zacznij od celu: co ma robić strona lub aplikacja i komu ma pomagać. Zaproponujemy rozwiązanie oraz wyjaśnimy, dlaczego pasuje do Twojej sytuacji."
+    },
+    {
+      "question": "Ile kosztuje strona lub aplikacja?",
+      "answer": "Cena zależy od zakresu, treści, funkcji i integracji. Po rozmowie przygotujemy propozycję z zakresem prac. Dzięki temu porównujesz konkretne rozwiązania, a nie nieporównywalne kwoty."
+    },
+    {
+      "question": "Czy zajmujecie się istniejącymi projektami?",
+      "answer": "Tak, możemy zacząć od przeglądu obecnej strony, aplikacji lub infrastruktury. Najpierw sprawdzamy stan rozwiązania i dostępne materiały, a potem ustalamy sensowny zakres zmian."
+    },
+    {
+      "question": "Czy będę samodzielnie zmieniać treści?",
+      "answer": "Jeśli tego potrzebujesz, uwzględnimy wygodny sposób edycji w projekcie. Może to być panel CMS lub prostsze rozwiązanie. Sposób zarządzania treścią ustalamy przed rozpoczęciem prac."
+    },
+    {
+      "question": "Co dzieje się po wdrożeniu?",
+      "answer": "Przekazujemy uzgodnione materiały, dokumentację i dostępy. Możemy kontynuować rozwój oraz utrzymanie. Zakres wsparcia, aktualizacji i reakcji na problemy ustalamy indywidualnie."
+    }
+  ],
+  "contact": {
+    "eyebrow": "08 / NASTĘPNY RUCH NALEŻY DO CIEBIE",
+    "title": "Masz pomysł? Zamieńmy go w działający system.",
+    "description": "Napisz, co chcesz zbudować lub usprawnić. Kilka zdań o firmie i celu wystarczy, żeby zacząć rozmowę.",
+    "email": "kontakt@sparkbyte.info",
+    "phone": "",
+    "directCta": "Napisz e-mail"
+  },
+  "footer": {
+    "description": "Projektujemy i wdrażamy strony internetowe, aplikacje oraz infrastrukturę serwerową dla firm.",
+    "links": [
+      { "label": "Usługi", "href": "#services" },
+      { "label": "Kontakt", "href": "#contact" },
+      { "label": "GitHub", "href": "https://github.com/sparkbytelab/" }
+    ],
+    "legalLinks": []
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "menu": "Otwórz menu",
+    "close": "Zamknij menu",
+    "navigation": "Główna nawigacja",
+    "contact": "Porozmawiajmy",
+    "companyLabel": "Dane firmy",
+    "signalAlt": "Znak Sparkbyte: iskra, orbity i siatka techniczna",
+    "pause": "Wstrzymaj animacje",
+    "resume": "Włącz animacje",
+    "servicesIndex": "Wybierz usługę",
+    "illustrative": "ILLUSTRATIVE SYSTEM / WIZUALIZACJA",
+    "visualCaption": "Pomysł → budowa → wdrożenie",
+    "visualStamp": ["IDEA", "INTO", "ACTION"],
+    "heroCoordinate": "EST. IN CODE / MADE FOR PEOPLE",
+    "workInProgress": "WORK IN PROGRESS_",
+    "contactWordmark": "LET’S BUILD",
+    "visualTitle": "Twój następny rozdział.",
+    "visualSubtitle": "Zaczyna się od dobrego pomysłu.",
+    "visualModules": ["BUILD", "DEPLOY", "MONITOR"],
+    "visualLog": [
+      "Struktura nabiera kształtu",
+      "Elementy łączą się w całość",
+      "Gotowe na kolejny krok"
+    ],
+    "projectLink": "Zobacz realizację"
+  }
+}

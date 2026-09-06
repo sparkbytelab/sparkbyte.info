@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">SparkByte signal frame</title>
+  <desc id="description">Abstrakcyjny znak SparkByte z orbitą, iskrą i siatką techniczną.</desc>
+  <defs>
+    <radialGradient id="background" cx="50%" cy="43%" r="50%">
+      <stop offset="0" stop-color="#8c68d9" stop-opacity="0.12" />
+      <stop offset="0.55" stop-color="#8c68d9" stop-opacity="0.05" />
+      <stop offset="1" stop-color="#8c68d9" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="66%">
+      <stop offset="0" stop-color="#d7ae4b" stop-opacity="0.25" />
+      <stop offset="1" stop-color="#d7ae4b" stop-opacity="0" />
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="18" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <mask id="gridFade">
+      <radialGradient id="gridMask">
+        <stop offset="0" stop-color="#fff" />
+        <stop offset="0.72" stop-color="#fff" stop-opacity="0" />
+      </radialGradient>
+      <rect x="80" y="150" width="640" height="650" fill="url(#gridMask)" />
+    </mask>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#background)" />
+  <g>
+
+    <g fill="#d4d2dc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="600" letter-spacing="2">
+      <text x="48" y="64">SPARKBYTE / 001</text>
+      <text x="690" y="64" text-anchor="end">SIGNAL / ON</text>
+    </g>
+
+    <g stroke="#bebacc" stroke-opacity="0.12" stroke-width="1" mask="url(#gridFade)">
+      <path d="M80 160h640M80 200h640M80 240h640M80 280h640M80 320h640M80 360h640M80 400h640M80 440h640M80 480h640M80 520h640M80 560h640M80 600h640M80 640h640M80 680h640M80 720h640M80 760h640" />
+      <path d="M80 150v650M120 150v650M160 150v650M200 150v650M240 150v650M280 150v650M320 150v650M360 150v650M400 150v650M440 150v650M480 150v650M520 150v650M560 150v650M600 150v650M640 150v650M680 150v650M720 150v650" />
+    </g>
+
+    <ellipse cx="400" cy="430" rx="420" ry="150" fill="none" stroke="#ffd166" stroke-opacity="0.65" stroke-width="2" transform="rotate(-28 400 430)" />
+    <ellipse cx="400" cy="430" rx="300" ry="115" fill="none" stroke="#d4b8ff" stroke-opacity="0.75" stroke-width="2" transform="rotate(47 400 430)" />
+
+    <g transform="rotate(45 400 430)">
+      <circle cx="400" cy="430" r="150" fill="url(#core)" stroke="#d7ae4b" stroke-opacity="0.6" stroke-width="2" filter="url(#glow)" />
+      <path d="M340 430h120M400 370v120" stroke="#d7ae4b" stroke-opacity="0.55" stroke-width="2" />
+      <circle cx="400" cy="275" r="8" fill="#ff7168" />
+      <circle cx="545" cy="500" r="8" fill="#ffd166" />
+      <circle cx="255" cy="500" r="8" fill="#7ee2c1" />
+    </g>
+
+    <g transform="translate(48 910)">
+      <text fill="#ffd76a" font-family="Georgia, serif" font-size="58">✦</text>
+      <text x="62" y="-4" fill="#d4d2dc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="3">FROM A SPARK</text>
+      <text x="62" y="26" fill="#fffdfa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" letter-spacing="2">TO SOMETHING REAL</text>
+    </g>
+  </g>
+</svg>
